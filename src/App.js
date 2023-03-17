@@ -36,6 +36,7 @@ function App() {
               <li><a href="https://www.hackerrank.com/somnath85?hr_r=1">HackerRank</a></li>
               <li>Mobile no. 9453658871</li>
             </ol>
+            {/* <ion-icon name="logo-linkedin"></ion-icon> */}
           </div>
           <div className='skillLogoAndDescription'>
             <img className="aboutLogo" src={skilltPic} alt='Avatar'/>
@@ -52,46 +53,47 @@ function App() {
           </div>
         </div>
         <div className="flex-item-right">
-          <div className="flex-container">  
-            <div className='flex-item-up'>
-              <div className='projectAndDescription'>
-                <text className='aboutText'>Project</text>
-              </div>
-              <ol>
-                <li>Sports Oriented Website using React.js</li> 
-                  <div className='aboutSprtsProject'>
-                    <ul>
-                      <li>Designed and developed a clean and modern website using HTML, CSS and Javascript</li>
-                      <li>Mainly worked on video tutorial website page having mainly categorised a set of videos to watch and video turorial dashboard.</li>
-                      <li>Utilized reponsive design to ensure compatibility across all devices.</li>
-                    </ul>
-                  </div>
-                <li>Educatinal Institute Website using React.Js</li>
-                  <div className='aboutEducationProject'>
-                    <ul>
-                      <li>I have worked as front end developer in the website Designed for educaion Institute(UMEED).</li>
-                      <li>Worked With HTML, CSS, Javascript with React Library.</li>
-                      <li>Deployed on GitHub pages via GitHub Actions.</li>
-                    </ul>
-                  </div>
-                <li>Traffic Signs Detector using Python</li>
-                  <div className='aboutTrafficProject'>
-                    <ul>
-                      <li>In Vehicle, To alert a driver for a traffic control symbols if he/she skipped it anyhow.</li>
-                      <li>Mainly worked on computer vision technology to generate the body gestures like corners and colours. </li>
-                      <li>Utilized responsive design to ensure compatibility across all devices.</li>
-                      <li>Deployed on Github pages via github Actions.</li>
-                    </ul>
-                  </div>
-              </ol>
-            </div>
-            <div className='flex-item-down'>
-              <div className='experienceAndDescription'>
-                
-              </div>
-            </div>
+          <div className='projectAndDescription'>
+            <text className='aboutText'>Project</text>
           </div>
-          
+          <ol>
+            <li>Sports Oriented Website using React.js</li> 
+              <div className='aboutSprtsProject'>
+                <ul>
+                  <li>Designed and developed a clean and modern website using HTML, CSS and Javascript</li>
+                  <li>Mainly worked on video tutorial website page having mainly categorised a set of videos to watch and video turorial dashboard.</li>
+                  <li>Utilized reponsive design to ensure compatibility across all devices.</li>
+                </ul>
+              </div>
+            <li>Educatinal Institute Website using React.Js</li>
+              <div className='aboutEducationProject'>
+                <ul>
+                  <li>I have worked as front end developer in the website Designed for educaion Institute(UMEED).</li>
+                  <li>Worked With HTML, CSS, Javascript with React Library.</li>
+                  <li>Deployed on GitHub pages via GitHub Actions.</li>
+                </ul>
+              </div>
+            <li>Traffic Signs Detector using Python</li>
+              <div className='aboutTrafficProject'>
+                <ul>
+                  <li>In Vehicle, To alert a driver for a traffic control symbols if he/she skipped it anyhow.</li>
+                  <li>Mainly worked on computer vision technology to generate the body gestures like corners and colours. </li>
+                  <li>Utilized responsive design to ensure compatibility across all devices.</li>
+                  <li>Deployed on Github pages via github Actions.</li>
+                </ul>
+              </div>
+          </ol>
+          <div className='experienceHeading'>
+            <text className='aboutText'>Experience</text>
+          </div>
+          <div className='experienceAndDescription'>
+            <ol>
+              <li>Web Developer</li>
+              <p>Designed and developed dynamic and responsive website using HTML, CSS, JavaScript and MongoDB worked with REST API to retrieve and display data from databases.</p>
+              <li>Umeed Coordinator And Educator(Non-Technical).</li>
+              <p>As a team leader, I have lead the umeed organisation (a team worked for educating unprivileged student) under a social activity carried out by Team in the vicinity of college.</p>
+            </ol>
+          </div>
         </div>
       </div>
     </>

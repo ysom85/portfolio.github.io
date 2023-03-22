@@ -91,7 +91,7 @@ function App() {
               <li>Web Developer</li>
               <p>Designed and developed dynamic and responsive website using HTML, CSS, JavaScript and MongoDB worked with REST API to retrieve and display data from databases.</p>
               <li>Umeed Coordinator And Educator(Non-Technical).</li>
-              <p>As a team leader, I have lead the umeed organisation (a team worked for educating unprivileged student) under a social activity carried out by Team in the vicinity of college.</p>
+              <p>As a team leader, I have lead the umeed organisation (a team worked for educating unprivileged student) under a social activity carried out by Team in the vicinity of college.Amit Yadav</p>
             </ol>
           </div>
         </div>
